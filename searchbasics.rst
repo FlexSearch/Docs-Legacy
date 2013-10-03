@@ -78,7 +78,7 @@ For example, you can create a query that is the equivalent of a SQL statement su
     "``Operator``","Required","string","FlexSearch supports a number of query types and operator defines the name of the query which should be executed."
     "``Parameters``","","array","Any query specific parameters required by the operator."
     "``Values``","required","array","The values which are to be searched."
-	
+    
 Operator Types
 ----------------
 Term Match (term_match)
@@ -91,11 +91,11 @@ A Query that matches documents containing a term. This may be combined with othe
 
     "``clausetype``","and","string","In case more than one term is searched then the query is converted into a number of sub-queries and the clausetype operator is used to determine the matching logic. For example an ``and`` clause will match all the terms passed to the query."
 
-	
+    
 Fuzzy Match (fuzzy_match)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Implements the fuzzy search query. The similarity measurement is based on the Damerau-Levenshtein (optimal string alignment) algorithm. At most, this query will match terms up to 2 edits. Higher distances, are generally not useful and will match a significant amount of the term dictionary. If you really want this, consider using an n-gram indexing technique (such as the SpellChecker in the suggest module) instead.
-	
+    
 .. csv-table::
     :header: "Parameter", "Default", "Type", "Description"
     :widths: 5, 5, 5, 30
@@ -103,7 +103,7 @@ Implements the fuzzy search query. The similarity measurement is based on the Da
     "``prefixlength``","0","int","Length of common (non-fuzzy) prefix."    
     "``slop``","1","int","The number of allowed edits"
 
-	
+    
 Phrase Match (phrase_match)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -114,7 +114,7 @@ A Query that matches documents containing a particular sequence of terms. A Phra
     :widths: 5, 5, 5, 30
   
     "``slop``","1","int","The number of allowed edits"
-	
+    
 WildcardQuery (like)
 ^^^^^^^^^^^^^^^^^^^^^
 
@@ -131,7 +131,7 @@ A Query that matches numeric values within a specified range. To use this, you m
 
     "``includelower``","false","bool","Include lower term"    
     "``includeupper``","false","bool","Include upper term"
-	
+    
 String Range (string_range)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 A Query that matches documents within an range of terms. This query matches the documents looking for terms that fall into the supplied range according to Byte.compareTo(Byte). It is not intended for numerical ranges; use NumericRangeQuery instead.

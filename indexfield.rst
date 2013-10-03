@@ -20,7 +20,7 @@ However, a biography will likely contains lots of words you don't care about and
 The solution to both these problems is field analysis. For the biography field, you can tell FlexSearch how to break apart the biography into words. You can tell FlexSearch that you want to make all the words lower case, and you can tell FlexSearch to remove accents marks. Field analysis is an important part of a field type.
 
 .. seealso:: 
-	`FlexSearch Analysis <./analysis.html>`_
+    `FlexSearch Analysis <./analysis.html>`_
 
 Field Properties
 --------------------
@@ -29,22 +29,22 @@ The below table lists the various parameters supported by index field.
 .. cssclass:: table-striped
 
 ==================== ==============================
-Parameter			Description
+Parameter            Description
 ==================== ==============================
-FieldName			The name of the field. This should be lowercase and should only contain alphabetical characters.
-Analyze			Signifies if the field should be analyzed using an analyzer. Refer: `FlexSearch Analysis <./analysis.html>`_
-Index				Signifies if a field should be indexed. A field can only be stored without indexing. Refer: `FlexSearch Analysis <./analysis.html>`_
-Store				Signifies if a field should be stored so that it can retrieved while searching.
-FieldTermVector		Advance property used for highlighting.
-FieldType			The type of field
-IndexAnalyzer		Analyzer to be used while indexing
-SearchAnalyzer		Analyzer to be used while searching
-ScriptName			Fields can get their content dynamically through scripts. This is the name of the script to be used for getting field data at index time. Refer: `Script <./script.html>`_
+FieldName            The name of the field. This should be lowercase and should only contain alphabetical characters.
+Analyze              Signifies if the field should be analyzed using an analyzer. Refer: `FlexSearch Analysis <./analysis.html>`_
+Index                Signifies if a field should be indexed. A field can only be stored without indexing. Refer: `FlexSearch Analysis <./analysis.html>`_
+Store                Signifies if a field should be stored so that it can retrieved while searching.
+FieldTermVector      Advance property used for highlighting.
+FieldType            The type of field
+IndexAnalyzer        Analyzer to be used while indexing
+SearchAnalyzer       Analyzer to be used while searching
+ScriptName           Fields can get their content dynamically through scripts. This is the name of the script to be used for getting field data at index time. Refer: `Script <./script.html>`_
 ==================== ==============================
 
 
 Field Types
------------
+-------------
 The field type defines how FlexSearch should interpret data in a field and how the field can be queried. There are many field types included with FlexSearch by default, and custom types can also be defined.
 
 The below table list the various field types supported by FlexSearch.
@@ -52,18 +52,18 @@ The below table list the various field types supported by FlexSearch.
 .. cssclass:: table-striped
 
 ==================== ==============================
-Field Type			Description
+Field Type            Description
 ==================== ==============================
-Int				Integer
-Double			Double
-ExactText			Field to store keywords. The entire input will be treated as a single word. This is useful for fiels like customerid, referenceid etc. These fields only support complete text matching while 								searching and no partial word match is available.
-Text				General purpose field to store normal textual data
-Highlight			Similar to Text field but supports highlighting of search results 
-Bool				Boolean
-Date				Fixed format date field (Supported format: YYYYmmdd)
-DateTime			Fixed format datetime field (Supported format: YYYYMMDDhhmmss)
-Custom			Custom field type which gives more granular control over the field configuration 
-Stored			Non-indexed field. Only used for retrieving stored text. Searching is not possible over these fields.
+Int                Integer
+Double            Double
+ExactText            Field to store keywords. The entire input will be treated as a single word. This is useful for fiels like customerid, referenceid etc. These fields only support complete text matching while                                 searching and no partial word match is available.
+Text                General purpose field to store normal textual data
+Highlight            Similar to Text field but supports highlighting of search results 
+Bool                Boolean
+Date                Fixed format date field (Supported format: YYYYmmdd)
+DateTime            Fixed format datetime field (Supported format: YYYYMMDDhhmmss)
+Custom            Custom field type which gives more granular control over the field configuration 
+Stored            Non-indexed field. Only used for retrieving stored text. Searching is not possible over these fields.
 ==================== ==============================
 
 
@@ -96,10 +96,10 @@ The below table lists the various parameters which can be configured for each fi
 +--------------+-------------------+------------------+---------+---------+-----------+---------------+
 
 .. note::
-	By default ``Text`` ``Highlight`` ``Custom`` use ``Standard Analyzer`` for searching and indexing.
+    By default ``Text`` ``Highlight`` ``Custom`` use ``Standard Analyzer`` for searching and indexing.
 
 .. warning::
-	Configuring any unsupported combination for a field type will be ignored and will result in unexpected behaviour.
+    Configuring any unsupported combination for a field type will be ignored and will result in unexpected behaviour.
 
 Field Term Vectors
 --------------------
@@ -114,7 +114,7 @@ The following options are supported by FlexSearch:
 - StoreTermVectorsWithPositionsandOffsets
 
 .. seealso:: 
-	`Lucene documentation <http://lucene.apache.org/core/4_4_0/index.html>`_
+    `Lucene documentation <http://lucene.apache.org/core/4_4_0/index.html>`_
 
 
 Defining fields in FlexSearch
@@ -146,7 +146,7 @@ Fields have many other configurable properties but Field Type is the only mandat
 Fields can be dynamic in nature and can be computed at index time from the passed data. Computed field requires custom scripts which defines the field data creation logic. Let's create an index field called fullname which is a concatenation of 'firstname' and 'lastname'.
 
 .. code-block:: javascript
-	
+    
     {
        "OpenIndex":false,
        "Index":{

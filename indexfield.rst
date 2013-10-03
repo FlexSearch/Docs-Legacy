@@ -26,23 +26,21 @@ Field Properties
 --------------------
 The below table lists the various parameters supported by index field.
 
-.. cssclass:: table-striped
+.. csv-table::
+    :header: "Parameter", "Description"
+    :widths: 5, 30
 
-==================== ==============================
-Parameter            Description
-==================== ==============================
-FieldName            The name of the field. This should be lowercase and should only contain alphabetical characters.
-Analyze              Signifies if the field should be analyzed using an analyzer. Refer: `FlexSearch Analysis <./analysis.html>`_
-Index                Signifies if a field should be indexed. A field can only be stored without indexing. Refer: `FlexSearch Analysis <./analysis.html>`_
-Store                Signifies if a field should be stored so that it can retrieved while searching.
-FieldTermVector      Advance property used for highlighting.
-FieldType            The type of field
-IndexAnalyzer        Analyzer to be used while indexing
-SearchAnalyzer       Analyzer to be used while searching
-ScriptName           Fields can get their content dynamically through scripts. This is the name of the script to be used for getting field data at index time. Refer: `Script <./script.html>`_
-==================== ==============================
+    "``FieldName``","The name of the field. This should be lowercase and should only contain alphabetical characters."
+    "``Analyze``","Signifies if the field should be analyzed using an analyzer. Refer: `FlexSearch Analysis <./analysis.html>`_"
+    "``Index``","Signifies if a field should be indexed. A field can only be stored without indexing. Refer: `FlexSearch Analysis <./analysis.html>`_"
+    "``Store``","Signifies if a field should be stored so that it can retrieved while searching."
+    "``FieldTermVector``","Advance property used for highlighting."
+    "``FieldType``","The type of field"
+    "``IndexAnalyzer``","Analyzer to be used while indexing"
+    "``SearchAnalyzer``","Analyzer to be used while searching"
+    "``ScriptName``","Fields can get their content dynamically through scripts. This is the name of the script to be used for getting field data at index time. Refer: `Script <./script.html>`_"
 
-
+	
 Field Types
 -------------
 The field type defines how FlexSearch should interpret data in a field and how the field can be queried. There are many field types included with FlexSearch by default, and custom types can also be defined.
@@ -54,16 +52,16 @@ The below table list the various field types supported by FlexSearch.
 ==================== ==============================
 Field Type            Description
 ==================== ==============================
-Int                Integer
-Double            Double
-ExactText            Field to store keywords. The entire input will be treated as a single word. This is useful for fiels like customerid, referenceid etc. These fields only support complete text matching while                                 searching and no partial word match is available.
-Text                General purpose field to store normal textual data
-Highlight            Similar to Text field but supports highlighting of search results 
-Bool                Boolean
-Date                Fixed format date field (Supported format: YYYYmmdd)
-DateTime            Fixed format datetime field (Supported format: YYYYMMDDhhmmss)
-Custom            Custom field type which gives more granular control over the field configuration 
-Stored            Non-indexed field. Only used for retrieving stored text. Searching is not possible over these fields.
+Int                    Integer
+Double                 Double
+ExactText              Field to store keywords. The entire input will be treated as a single word. This is useful for fields like customerid, referenceid etc. These fields only support complete text matching while searching and no partial word match is available.
+Text                   General purpose field to store normal textual data
+Highlight              Similar to Text field but supports highlighting of search results 
+Bool                   Boolean
+Date                   Fixed format date field (Supported format: YYYYmmdd)
+DateTime               Fixed format datetime field (Supported format: YYYYMMDDhhmmss)
+Custom                 Custom field type which gives more granular control over the field configuration 
+Stored                 Non-indexed field. Only used for retrieving stored text. Searching is not possible over these fields.
 ==================== ==============================
 
 
@@ -124,7 +122,7 @@ Field can be created or modified from an index using the index APIs - `index\cre
 
 Below is a simple example of an index with fields called 'firstname' & 'lastname'. All field names should be lower case and should not contain any spaces. This is to avoid case based mismatching on field names.
 
-.. code:: javascript
+.. code-block:: javascript
 
     {
        "OpenIndex":false,

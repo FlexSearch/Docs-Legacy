@@ -21,7 +21,7 @@ Usage Examples
 
 Request to create a simple index without any fields.
 
-.. code:: javascript
+.. code-block:: javascript
 
     {
        "OpenIndex":false,
@@ -34,7 +34,7 @@ The newly created index will be offline as the OpenIndex parameter is set to fal
 
 There are various parameters which can be set while creating an index. Let's start with adding two simple fields to the index called 'firstname' & 'lastname'. All field names should be lower case and should not contain any spaces. This is to avoid case based mismatching on field names.
 
-.. code:: javascript
+.. code-block:: javascript
 
     {
        "OpenIndex":false,

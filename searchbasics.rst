@@ -5,7 +5,7 @@ FlexSearch follows a consistent search dsl to execute all kind of search request
 
 The basic search request structure is as follows:
 
-.. code:: javascript
+.. code-block:: javascript
 
     { 
       "Columns" : [ "String" ],

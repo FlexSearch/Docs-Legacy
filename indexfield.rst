@@ -23,7 +23,7 @@ The solution to both these problems is field analysis. For the biography field, 
 	`FlexSearch Analysis <./analysis.html>`_
 
 Field Properties
------------
+--------------------
 The below table lists the various parameters supported by index field.
 
 .. cssclass:: table-striped

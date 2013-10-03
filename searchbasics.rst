@@ -118,9 +118,7 @@ A Query that matches documents containing a particular sequence of terms. A Phra
 WildcardQuery (like)
 ^^^^^^^^^^^^^^^^^^^^^
 
-Implements the wildcard search query. Supported wildcards are *, which matches any character sequence (including the empty one), and ?, which matches any single character. '\' is the escape character.
-
-Note this query can be slow, as it needs to iterate over many terms. In order to prevent extremely slow WildcardQueries, a Wildcard term should not start with the wildcard *
+Implements the wildcard search query. Supported wildcards are \*, which matches any character sequence (including the empty one), and ?, which matches any single character. '\' is the escape character. Note this query can be slow, as it needs to iterate over many terms. In order to prevent extremely slow WildcardQueries, a Wildcard term should not start with the wildcard \*
 
 Numeric Range (numeric_range)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

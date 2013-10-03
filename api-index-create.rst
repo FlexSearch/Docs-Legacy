@@ -7,13 +7,13 @@ Resource Information
 ---------------------
 
 .. cssclass:: table-striped
-																	
+                                                                    
 =========================== ==========================================
-**Response Formats** 		``XML`` ``JSON`` ``JSV`` ``CSV`` ``X-MSGPACK`` ``X-PROTOBUF`` ``SOAP 1.1`` ``SOAP 1.2``  
-**HTTP Methods** 			``POST`` 
-**Resource family**			index															
-**Minimum API version**		``v1.0``																		
-**Resource URL**			http://localhost:9800/index/create
+**Response Formats**         ``XML`` ``JSON`` ``JSV`` ``CSV`` ``X-MSGPACK`` ``X-PROTOBUF`` ``SOAP 1.1`` ``SOAP 1.2``  
+**HTTP Methods**             ``POST`` 
+**Resource family**            index                                                            
+**Minimum API version**        ``v1.0``                                                                        
+**Resource URL**            http://localhost:9800/index/create
 =========================== ==========================================
 
 Usage Examples
@@ -59,7 +59,7 @@ Computed Fields
 Fields can be dynamic in nature and can be computed at index time from the passed data. Computed field requires custom scripts which defines the field data creation logic. Let's create an index field called fullname which is a concatenation of 'firstname' and 'lastname'.
 
 .. code-block:: javascript
-	
+    
     {
        "OpenIndex":false,
        "Index":{

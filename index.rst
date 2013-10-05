@@ -42,12 +42,15 @@ Development Guide:
 	
 	
 
-.. seealso:: 
+.. seealso::
+ 
 	The documentation contains information from various sources and at times excerpts from third party documentation. In case more information is required then you can refer to the following sources directly:
-* `ServiceStack wiki <https://github.com/ServiceStack/ServiceStack/wiki>`_
-* `Lucene documentation <http://lucene.apache.org/core/4_4_0/index.html>`_
-* `Apache Solr Reference Guide 4.4 <https://www.apache.org/dyn/closer.cgi/lucene/solr/ref-guide/>`_
 
+#. `ServiceStack wiki <https://github.com/ServiceStack/ServiceStack/wiki>`_
+#. `Lucene documentation <http://lucene.apache.org/core/4_4_0/index.html>`_
+#. `Apache Solr Reference Guide 4.4 <https://www.apache.org/dyn/closer.cgi/lucene/solr/ref-guide/>`_
+
+	 
 .. note:: 
 	FlexSearch and all related documentation is Licensed under the Apache License, Version 2.0
 

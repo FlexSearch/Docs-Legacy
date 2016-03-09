@@ -1,4 +1,4 @@
 Documentation
 =============
 
-FlexSearch.net documentation repository
+FlexSearch documentation repository

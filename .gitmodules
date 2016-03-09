@@ -1,0 +1,3 @@
+[submodule "flexsearch"]
+	path = flexsearch
+	url = https://github.com/FlexSearch/FlexSearch.git

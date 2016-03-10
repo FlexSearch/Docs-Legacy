@@ -65,7 +65,11 @@
         "REST API": {
             "API Basics": "docs/rest/api-basics.md",
             "Swagger UI": "docs/rest/swagger-ui.md",
-            "Reference": "docs/rest/reference.md"
+            "Reference": "docs/rest/reference.md",
+            "HTTP Examples": {
+                "Getting indices" : "docs/rest/examples/get-indices.md",
+                "Getting documents" : "docs/rest/examples/get-documents.md"
+            }
         },
         "Scripting": {
             "Scripting Basics": "docs/scripting/scripting-basics.md"

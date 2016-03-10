@@ -5,6 +5,8 @@ git submodule update --init --recursive
 
 cd flexsearch
 call build.bat api
+call build.bat target=RestorePackages
+call build.bat target=BuildApp
 call build.bat target=HttpTests
 cd ..
 

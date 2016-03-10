@@ -9,4 +9,4 @@ call build.bat api
 cd ..
 
 echo Copying the generated api.html file
-copy flexsearch\documentation\api.html _partials\api.html
+copy flexsearch\documentation\api.html includes\api.html

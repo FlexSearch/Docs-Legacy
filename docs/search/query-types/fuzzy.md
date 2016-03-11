@@ -1,4 +1,3 @@
-
 @alert info
 @@include(data_notice.html) 
 @end
@@ -11,17 +10,14 @@ Parameter |Default |Type |Description
 `slop` |1 |int |The number of allowed edits
 
 @alert tip
-Fuzzy supports both <code>fuzzy</code> and <code>~=</code> operator.'
+Fuzzy uses Search Analyzer to generate tokens.
 @end
 
 ## Query Examples
 The following search query returns all documents containing `Iran` and all documents containing `Iran` with 1 character difference, in the `countryname` field.
 
-{% include 'data/post-indices-search-fuzzy-1.md' %}
-
-The following search query is same as the above but uses `~=` operator.
-{% include  'data/post-indices-search-fuzzy-2.md' %}
+@@render(partials/search_result.html,examples/post-indices-search-fuzzy-1.json)
 
 The following search query demonstrates the use of `slop` operator. It returns all countries similar to `China` with a difference of two characters.
 
-{% include 'data/post-indices-search-fuzzy-3.md' %}
+@@render(partials/search_result.html,examples/post-indices-search-fuzzy-3.json)

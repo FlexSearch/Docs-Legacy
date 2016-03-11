@@ -1,9 +1,21 @@
 # What is FlexSearch?
 
-FlexSearch is a high performance REST based full-text searching platform built on top of the popular Lucene search library. At its core it is about extensibility and maintainability with minimum overhead. FlexSearch is written in F# & C# 5.0 (.net framework 4.5).
+FlexSearch is a high performance REST based full-text searching platform built on top of 
+the popular Lucene search library. At its core it is about extensibility and maintainability
+with minimum overhead. FlexSearch is written in F# & C# 5.0 (.net framework 4.6.1).
 
-It has an extensive plug-in architecture with ability to customize most of the functionality with minimum amount of efforts. It also supports scripting which can be used at both search and index time to fine tune the data. One area where FlexSearch particularly excel, is providing easy extensible connector model which allows a developer to tap directly into core's indexing engine, thus avoiding the reliance on web services. This results in a greatly improved indexing performance when indexing over millions of records.
+It has an extensive plug-in architecture with ability to customize most of the functionality 
+with minimum amount of efforts. It also supports scripting which can be used at both search 
+and index time to fine tune the data. One area where FlexSearch particularly excel, is 
+providing easy extensible connector model which allows a developer to tap directly into 
+core's indexing engine, thus avoiding the reliance on web services. This results in a 
+greatly improved indexing performance when indexing over millions of records.
 
+Some ideal use cases for the engine would be:
+- Searching across unstructured text data on intranet and websites.
+- Searching across structured data coming from SQL, CSV and other sources.
+- Duplicate detection over large volume of structured data like customer information
+de-duplication, address matching etc.
 
 <div class="card">
     <div class="card-image">

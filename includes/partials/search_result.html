@@ -1,4 +1,4 @@
-<pre><code>{{Query.QueryString}}</code></pre>
+<pre><code>{{Query.queryString}}</code></pre>
 
 <table>
     <thead>
@@ -11,20 +11,20 @@
     </thead>
     <tfoot>
         <tr>
-            <td>Records Returned</td>
-            <td>{{Result.RecordsReturned}}</td>
-            <td>Total Available</td>
-            <td>{{Result.TotalAvailable}}</td>
+            <td>Records returned</td>
+            <td>{{Result.recordsReturned}}</td>
+            <td>Total available</td>
+            <td>{{Result.totalAvailable}}</td>
         </tr>
     </tfoot>
     <tbody>
-        {{#Result.Documents}}
+        {{#Result.documents}}
         <tr>
-            <td>{{Fields.countryname}}</td>
-            <td>{{Fields.agriproducts}}</td>
-            <td>{{Fields.governmenttype}}</td>
-            <td>{{Fields.population}}</td>
+            <td>{{fields.countryname}}</td>
+            <td>{{fields.agriproducts}}</td>
+            <td>{{fields.governmenttype}}</td>
+            <td>{{fields.population}}</td>
         </tr>
-        {{/Result.Documents}}
+        {{/Result.documents}}
     </tbody>
 </table>

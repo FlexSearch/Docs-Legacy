@@ -66,9 +66,12 @@
             "API Basics": "docs/rest/api-basics.md",
             "Swagger UI": "docs/rest/swagger-ui.md",
             "Reference": "docs/rest/reference.md",
-            "HTTP Examples": {
+            "Examples": {
+                "Creating indices" : "docs/rest/examples/create-indices.md",
                 "Getting indices" : "docs/rest/examples/get-indices.md",
-                "Getting documents" : "docs/rest/examples/get-documents.md"
+                "Updating and deleting indices": "docs/rest/examples/other-indices.md",
+                "Working with documents" : "docs/rest/examples/documents.md",
+                "Working with predefined queries" : "docs/rest/examples/predefined-queries.md"
             }
         },
         "Scripting": {

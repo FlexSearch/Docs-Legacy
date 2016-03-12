@@ -22,9 +22,9 @@
                 "Search Basics": "docs/search/search-basics.md",
                 "Search UI": "docs/demo-index/search-ui.md",
                 "API Basics": "docs/rest/api-basics.md",
-                "Creating Index": "docs/guides/creating-index.md",
-                "Adding Data to an Index": "docs/guides/adding-data.md",
-                "Creating custom analyzer": "docs/guides/custom-analyzer.md",
+                "Creating Index": "docs/guides/creating-an-index.md",
+                "Adding Data to an Index": "docs/guides/indexing-documents.md",
+                "Creating custom analyzer": "docs/wip.md",
                 "Scripting Basics": "docs/scripting/scripting-basics.md"
             }
         },
@@ -81,10 +81,16 @@
         "Guides": {
             "Installing FlexSearch": "docs/server-setup/installing.md",
             "Configuring FlexSearch": "docs/server-setup/configuring.md",
-            "Adding Data to an Index": "docs/guides/adding-data.md",
-            "Creating Index": "docs/guides/creating-index.md",
-            "Searching Data": "docs/guides/searching-data.md",
-            "Creating custom analyzer": "docs/guides/custom-analyzer.md"
+            "Searching Data": "docs/wip.md",
+            "Creating an index": "docs/guides/creating-an-index.md",
+            "Checking index status": "docs/guides/checking-index-status.md",
+            "Closing an index": "docs/guides/closing-an-index.md",
+            "Removing an index": "docs/guides/removing-an-index.md",
+            "Adding data to an Index": "docs/guides/indexing-documents.md",
+            "Updating documents": "docs/guides/modifying-documents.md",
+            "Deleting documents": "docs/guides/deleting-documents.md",
+            "Working with Predefined Queries": "docs/guides/working-with-predefined-queries.md",
+            "Searching with a Predefined Query": "docs/guides/searching-with-a-predefined-query.md"
         }
     }
 }

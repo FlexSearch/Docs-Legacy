@@ -41,7 +41,14 @@
             "Analysis" : "docs/wip.md",
             "Filtering" : "docs/wip.md",
             "Indexing": "docs/wip.md",
-            "Connectors" : "docs/wip.md",
+            "Predefined Queries": "docs/concepts/predefined-queries.md",
+            "Plugins": "docs/concepts/custom-plugins.md", 
+            "Connectors" : {
+                "CSV Connector": "docs/concepts/csv-connector.md",
+                "SQL Connector": "docs/concepts/sql-connector.md"
+            },
+            "The C# Client": "docs/concepts/csharp-client.md",
+            "The TypeScript Client": "docs/concepts/typescript-client.md",
             "Storing Data" : "docs/wip.md",
             "Transaction Log" : "docs/wip.md",
             "Logging" : "docs/wip.md"
@@ -49,7 +56,7 @@
         "Search": {
             "Search Basics": "docs/search/search-basics.md",
             "Query Format": "docs/search/query-format.md",
-            "Predefined Query": "docs/search/predefined-query.md",
+            "Predefined Query": "docs/concepts/predefined-queries.md",
             "Features": {
                 "Text Highlighting": "docs/search/features/text-highlighting.md"
             },

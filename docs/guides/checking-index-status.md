@@ -58,5 +58,5 @@ else
 
 Please have a look at the REST documentation for [Index Management APIs].
 
-[Index Management APIs]: https://flexsearch.net/docs/rest/examples/other-indices
+[Index Management APIs]: https://flexsearch.net/docs/rest/examples/get-indices
 

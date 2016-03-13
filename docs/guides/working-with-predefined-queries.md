@@ -8,7 +8,7 @@ For demonstration purposes, let's use the *country* index that already has a *pr
 Therefore we want to modify it from:
 
 ```
-allof(agriproducts, 'wheat', 'corn', 'grapes') AND like(countryname, isblank(@countryName, @IGNORE))
+allof(agriproducts, 'wheat', 'corn', 'grapes') AND like(countryname, @countryName, -matchall)
 ```
 
 To:
@@ -49,6 +49,6 @@ if (response.Error?.Message != null)
 
 ### Creating or updating a Predefined Query by writing the HTTP request ourselves
 
-Please have a look at the REST documentation for [Index Management APIs].
+Please have a look at the REST documentation for [Document Management APIs].
 
-[Document Management APIs]: http://flexsearch.net/docs/rest/document-management-apis/#update-predefined-query
+[Document Management APIs]: https://flexsearch.net/docs/rest/examples/documents

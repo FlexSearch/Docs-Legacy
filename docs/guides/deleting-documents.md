@@ -29,4 +29,4 @@ if (response.Error?.Message != null)
 
 Please have a look at the REST documentation for [Document Management APIs].
 
-[Document Management APIs]: http://flexsearch.net/docs/rest/document-management-apis/#delete-document-by-id
+[Document Management APIs]: https://flexsearch.net/docs/rest/examples/documents.html

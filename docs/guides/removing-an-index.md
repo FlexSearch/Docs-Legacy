@@ -33,5 +33,5 @@ if (response.Error?.Message != null)
 
 Please have a look at the REST documentation for [Index Management APIs].
 
-[Index Management APIs]: http://flexsearch.net/docs/rest/index-management-apis/#delete-index-by-id
-[closing an index]: TODO add URL to closing an index sample
+[Index Management APIs]: https://flexsearch.net/docs/rest/examples/other-indices
+[closing an index]: ./closing-an-index

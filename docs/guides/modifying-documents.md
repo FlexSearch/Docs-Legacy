@@ -49,4 +49,4 @@ FlexSearch's document *update* method is actually an *upsert* - if the document 
 
 Please have a look at the REST documentation for [Document Management APIs].
 
-[Document Management APIs]: http://flexsearch.net/docs/rest/document-management-apis/#update-document-by-id
+[Document Management APIs]: https://flexsearch.net/docs/rest/examples/documents.html

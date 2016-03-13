@@ -31,4 +31,4 @@ if (response.Error?.Message != null)
 
 Please have a look at the REST documentation for [Index Management APIs].
 
-[Index Management APIs]: http://flexsearch.net/docs/rest/index-management-apis/#update-index-status
+[Index Management APIs]: https://flexsearch.net/docs/rest/examples/other-indices

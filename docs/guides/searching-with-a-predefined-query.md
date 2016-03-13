@@ -147,5 +147,5 @@ The above would be the equivalent of calling query `(b)` defined earlier. As you
 
 For more examples, please have a look at the REST documentation for [Search APIs].
 
-[Search APIs]: TODO http://flexsearch.net/docs/rest/search-apis/
-[Predefined Queries]: TODO add url to Predefined Queries documentation #plain-english
+[Search APIs]: https://flexsearch.net/docsSearch
+[Predefined Queries]: ../concepts/predefined-queries

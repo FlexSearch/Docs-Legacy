@@ -38,4 +38,4 @@ var indexName = response.Data.Id; // should be "contact"
 
 Please have a look at the REST documentation for [Index Management APIs].
 
-[Index Management APIs]: http://flexsearch.net/docs/rest/index-management-apis/#create-index-by-id
+[Index Management APIs]: https://flexsearch.net/docs/rest/examples/create-indices.html

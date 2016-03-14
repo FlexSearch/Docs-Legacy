@@ -39,21 +39,21 @@ FlexSearch and performing queries against the engine.
 </div>
 
 ## Essential Path
-* [Installing FlexSearch](installation)
-* [Setting up demo country index](setting-up-demo)
-* [Search using the UI](search-ui)
-* [REST services basics](rest-basics)
+* [Installing FlexSearch](server-setup/installing)
+* [Setting up demo country index](demo-index/setting-up-demo-index)
+* [Search using the UI](demo-index/search-ui)
+* [REST services basics](wip)
 
 ## Suggested Path
-* [Installing FlexSearch](installation)
-* [Configuring FlexSearch](configuration)
-* [Setting up demo country index](setting-up-demo)
-* [Search basics](search-basics)
-* [Search using the UI](search-ui)
-* [REST services basics](rest-basics)
-* [Creating an index](creating-an-index)
-* [Creating custom analyzers](creating-custom-analyzers)
-* [Scripting basics](scripting-basics)
-* [Adding data to an index](creating-an-index)
+* [Installing FlexSearch](server-setup/installing)
+* [Configuring FlexSearch](server-setup/configuring)
+* [Setting up demo country index](demo-index/setting-up-demo-index)
+* [Search basics](search/search-basics)
+* [Search using the UI](demo-index/search-ui)
+* [REST services basics](demo-index/search-ui)
+* [Creating an index](guides/creating-an-index)
+* [Creating custom analyzers](wip)
+* [Scripting basics](scripting/scripting-basics)
+* [Adding data to an index](guides/indexing-documents)
 
 @@include(docs_info.html)

@@ -60,7 +60,7 @@ the portal. Go to the homepage and select the search studio card.
 Inside the Search Studio, click on the index drop-down and choose country index.
 This is the index that was created in the previous tutorial.
 
-![Demo Index](../images/search-demo-index.png)
+<img src="../images/search-demo-index.png" alt="Demo Index">
 
 On the left-hand side you can see all the fields that are present in the index.
 On the top right hand side you have a button to submit the search. You can enter

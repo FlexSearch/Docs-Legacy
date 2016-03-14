@@ -8,15 +8,21 @@ the results: [World Fact Book](/docs/resources/demo.json).
 This data is extremely useful for demonstrating a number of search concepts. There
 are various kinds of fields which can be used for text and numeric searching.
 
-<div class="note">
+@alert info
 The data presented here is for demonstration purpose only and may not be relevant
 in real world.
-</div>
+@end
 
-In order to set up demo index, good to the homepage of the portal and select the
+In order to set up demo index, go to the homepage of the portal and select the
 demo index card from the installed tools section.
 
 ![Demo Index](../images/setup-demo-index.png)
+
+Alternatively, you could use a tool like *Fiddler* to issue a `PUT` request to the
+URL 
+```
+flexsearch_url_with_port_no/setupdemo
+```
 
 ## A quick side tour of the terminology
 Before we start exploring the details of the engine, it would be a good idea to

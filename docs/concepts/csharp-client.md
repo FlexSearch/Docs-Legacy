@@ -1,4 +1,4 @@
-FlexSearch comes with a C# client that is automatically generated from the [Swagger definition]. You can find the C# client dll in the `FlexSearch.*.zip` package under the name:
+FlexSearch comes with a C# client that is automatically generated from the [Swagger definition]. You can find the C# client dll in the `FlexSearch.Clients.*.zip` package under the name:
 ```
 FlexSearch.Api.dll
 ```

@@ -63,7 +63,7 @@ We now need to add a reference to FlexSearch.Core and FlexSearch.Api from the `/
 
 In the `Handler.cs` file we add the following code:
 
-```c#
+```csharp
 using FlexSearch.Api.Model;
 using Microsoft.FSharp.Core;
 using System;
@@ -146,6 +146,13 @@ The .zip file has two parts in it that you will need to deploy to your FlexSearc
     `<flexsearch-engine-folder>/Web/apps/`
 
 When you restart your FlexSearch engine, the new plugin and portal app will be picked up automatically. Just navigate to your portal homepage and see for yourself.
+
+### Installing a FlexSearch Plugin
+
+In order to install a plugin you just need to take the `*.dll` file from your package and put it in the `Plugins` folder. 
+The plugin will be picked up the next time FlexSearch starts.
+
+For example, for the `CSV Connector`, you would take the `CsvConnector.dll` file from the generated `zip` and put it in the `Plugins` folder.
 
 [PluginLibrary]: https://github.com/FlexSearch/PluginLibrary/
 [SQL Connector]: https://github.com/FlexSearch/SqlConnector

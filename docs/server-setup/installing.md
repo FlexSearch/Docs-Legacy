@@ -8,7 +8,7 @@
 ## Download pre-compiled binaries
 Latest pre-build releases can be downloaded from the following link:
 
-https://github.com/FlexSearch/FlexSearch/releases
+[https://github.com/FlexSearch/FlexSearch/releases](https://github.com/FlexSearch/FlexSearch/releases)
 
 ## Building from source
 
@@ -104,7 +104,8 @@ Once configured successfully you can access the logs from Event Viewer.
 To confirm your installation, go to the FlexSearch root page at http://hostname:9800/.
 The below screen will confirm a proper install of the server.
 
-![FlexSearch Portal](..\images\flexsearch-portal.png)
+<img src="..\images\FlexSearch-Portal.png" alt="FlexSearch Portal"/>
+_____
 
 ## Troubleshooting install issues
 FlexSearch installation compromises of three parts:

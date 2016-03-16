@@ -30,7 +30,8 @@
         },
         "Server Setup": {
             "Installing FlexSearch": "docs/server-setup/installing.md",
-            "Configuring FlexSearch": "docs/server-setup/configuring.md"
+            "Configuring FlexSearch": "docs/server-setup/configuring.md",
+            "5 Minute Install": "docs/server-setup/5-minute-install.md"
         },
         "Demo Index": {
             "Search UI": "docs/demo-index/search-ui.md",
@@ -84,7 +85,7 @@
         "Scripting": {
             "Scripting Basics": "docs/scripting/scripting-basics.md"
         },
-        "Extending FlexSarch": {},
+        "Extending FlexSearch": {},
         "Guides": {
             "Installing FlexSearch": "docs/server-setup/installing.md",
             "Configuring FlexSearch": "docs/server-setup/configuring.md",

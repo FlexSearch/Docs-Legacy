@@ -27,19 +27,18 @@ de-duplication, address matching etc.
     </div>
     <div class="card-action">
         <a href="#">Why FlexSearch?</a>
-        <a href="#">Get Started</a>
-        <a href="#">Five-Minute Install</a>
-        <a href="#">Download</a>
+        <a href="getting-started">Get Started</a>
+        <a href="server-setup/5-minute-install">Five-Minute Install</a>
+        <a href="https://github.com/FlexSearch/FlexSearch/releases">Download</a>
     </div>
 </div>
     
 ## Other things of interest
 
-* [Guides]() - Let's simplify the tricky bits.
-* [Concepts]() - Understanding the basics of searching and indexing.
-* [REST API]() - Consuming the services exposed by FlexSearch.
-* [Search]() - Explanation of search capability.
-* [Extending FlexSearch]() - Build upon the existing functionality.
-* [Import Handlers]() - Bring data from external sources.
-* [Glossary]()
-* [FAQ]()
+* [Guides](../docsGuides) - Let's simplify the tricky bits.
+* [Concepts](../docsConcepts) - Understanding the basics of searching and indexing.
+* [REST API](../docsRESTAPI) - Consuming the services exposed by FlexSearch.
+* [Search](../docsSearch) - Explanation of search capability.
+* [Extending FlexSearch](../docsExtendingFlexSearch) - Build upon the existing functionality.
+* [Import Handlers](../Connectors) - Bring data from external sources.
+* [FAQ](faq)

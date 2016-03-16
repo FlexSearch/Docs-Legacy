@@ -1,30 +1,38 @@
 <pre><code>{{Query.queryString}}</code></pre>
 
-<table>
+<table class="table">
     <thead>
         <tr>
-            <th>countryname</th>
-            <th>agriproducts</th>
-            <th>governmenttype</th>
-            <th>population</th>
+            <th width="25%">countryname</th>
+            <th width="25%">agriproducts</th>
+            <th width="25%">governmenttype</th>
+            <th width="25%">population</th>
         </tr>
     </thead>
     <tfoot>
         <tr>
-            <td>Records returned</td>
-            <td>{{Result.recordsReturned}}</td>
-            <td>Total available</td>
-            <td>{{Result.totalAvailable}}</td>
+            <td width="25%">Records returned</td>
+            <td width="25%"><strong>{{Result.recordsReturned}}</strong></td>
+            <td width="25%">Total available</td>
+            <td width="25%"><strong>{{Result.totalAvailable}}</strong></td>
         </tr>
     </tfoot>
     <tbody>
-        {{#Result.documents}}
         <tr>
-            <td>{{fields.countryname}}</td>
-            <td>{{fields.agriproducts}}</td>
-            <td>{{fields.governmenttype}}</td>
-            <td>{{fields.population}}</td>
+            <td colspan="4" style="padding:0">
+                <div style="overflow-x:hidden; overflow-y:auto; height:300px">
+                    <table class="table">
+                        {{#Result.documents}}
+                        <tr>
+                            <td width="25%">{{fields.countryname}}</td>
+                            <td width="25%">{{fields.agriproducts}}</td>
+                            <td width="25%">{{fields.governmenttype}}</td>
+                            <td width="25%">{{fields.population}}</td>
+                        </tr>
+                        {{/Result.documents}}
+                    </table>
+                </div>
+            </td>
         </tr>
-        {{/Result.documents}}
     </tbody>
 </table>

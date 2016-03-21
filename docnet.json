@@ -83,7 +83,9 @@
             }
         },
         "Scripting": {
-            "Scripting Basics": "docs/scripting/scripting-basics.md"
+            "Scripting Basics": "docs/scripting/scripting-basics.md",
+            "PreIndex Scripts": "docs/scripting/preindex-scripts.md",
+            "PreSearch Scripts": "docs/scripting/presearch-scripts.md"
         },
         "Extending FlexSearch": {},
         "Guides": {

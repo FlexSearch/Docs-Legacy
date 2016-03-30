@@ -63,10 +63,12 @@
                 "Text Highlighting": "docs/search/features/text-highlighting.md"
             },
             "Query Types": {
+                "All of Query":"docs/search/query-types/all-of.md",
+                "Any of Query":"docs/search/query-types/any-of.md",
+                "Phrase match Query": "docs/search/query-types/phrase-match.md",
                 "Fuzzy Query": "docs/search/query-types/fuzzy.md",
                 "Match all Query": "docs/search/query-types/matchall.md",
                 "Numeric Range Queries": "docs/search/query-types/numeric-range.md",
-                "Phrase match Query": "docs/search/query-types/phrase-match.md",
                 "Regex Query": "docs/search/query-types/regex.md",
                 "Like Query": "docs/search/query-types/like.md"
             }

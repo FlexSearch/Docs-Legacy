@@ -99,7 +99,7 @@
         "Guides": {
             "Installing FlexSearch": "docs/server-setup/installing.md",
             "Configuring FlexSearch": "docs/server-setup/configuring.md",
-            "Searching Data": "docs/wip.md",
+            "Searching Data": "docs/guides/searching-data.md",
             "Creating an index": "docs/guides/creating-an-index.md",
             "Checking index status": "docs/guides/checking-index-status.md",
             "Closing an index": "docs/guides/closing-an-index.md",

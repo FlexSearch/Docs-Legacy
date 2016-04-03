@@ -60,16 +60,16 @@ What will happen in this particular case is that the *countryName* variable (the
 (a) allof(agriproducts, 'wheat', 'corn', 'grapes')
 ``` 
 
-Here is how we call the `PostSearch` method:
+Here is how we call the `Search` method:
 
 ```csharp
-var response = searchApi.PostSearch(query, "country");
+var response = searchApi.Search("country", query);
 InterpretResponse(response);
 ```
 
 The `InterpretResponse` function is defined here:
 ```csharp
-private void InterpretResponse(SearchResultsResponse response)
+private void InterpretResponse(SearchResponse response)
 {
     if (response.Error?.Message != null)
     {
@@ -96,12 +96,12 @@ Here is how we initialize the variable and call the `PostSearch` method:
 
 ```csharp
 query.Variables.Add("countryname", "romania");
-var response = searchApi.PostSearch(query, "country");
+var response = searchApi.Search("country", query);
 InterpretResponse(response);
 ```
 
 
-### Creating or updating a Predefined Query by writing the HTTP request ourselves
+### Searching using a Predefined Query by writing the HTTP request ourselves
 
 When searching you have two options: 
 

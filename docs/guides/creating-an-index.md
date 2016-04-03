@@ -26,12 +26,12 @@ var index = new Index("contact")
 };
 ```
 
-Now we can call the `CreateIndex` method, supplying the index object as a parameter. The response should contain the index name of the newly created index if everything went out ok.
+Now we can call the `CreateIndex` method, supplying the index object as a parameter. The response should return `true` in the `Data` part if everything went ok.
 
 ```csharp
 var response = indicesApi.CreateIndex(index);
 Debug.Assert(response.Error?.Message == null);
-var indexName = response.Data.Id; // should be "contact"
+Debug.Assert(response.Data == true);
 ```
 
 ### Creating an index by writing the HTTP request ourselves

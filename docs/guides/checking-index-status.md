@@ -18,16 +18,16 @@ For demonstration purposes, let's asume we already have an active / opened index
 
 ### Checking the status of an index using the C# client
 
-First you need to get hold of an API that has the `GetStatus` web service method. You can use the `IndicesApi`. 
+First you need to get hold of an API that has the `GetIndexStatus` web service method. You can use the `IndicesApi`. 
 
 ```csharp
 var indicesApi = new IndicesApi("http://localhost:9800");
 ```
 
-Now we can call the `GetStatus` method, supplying the *name of the index* as a `string`. This method returns an option from the `IndexStatus` enum, i.e. one of the lifecycle statuses.
+Now we can call the `GetIndexStatus` method, supplying the *name of the index* as a `string`. This method returns an option from the `IndexStatus` enum, i.e. one of the lifecycle statuses.
 
 ```csharp
-var response = indicesApi.GetStatus("country");
+var response = indicesApi.GetIndexStatus("country");
 
 if (response.Error?.Message != null)
     Console.WriteLine(response.Error.Message);

@@ -9,18 +9,18 @@ For demonstration purposes, let's asume we already have an active / opened index
 
 ### Closing an index using the C# client
 
-First you need to get hold of an API that has the `UpdateStatus` web service method. You can use the `IndicesApi`:
+First you need to get hold of an API that has the `UpdateIndexStatus` web service method. You can use the `IndicesApi`:
 
 ```csharp
 var indicesApi = new IndicesApi("http://localhost:9800");
 ```
 
-Now we can call the `UpdateStatus` method, supplying the *name of the index* and the *status* as a `string`. The *status* can have one of the following values: `online` or `offline`. We are, of course, going to set the status to `offline`.
+Now we can call the `UpdateIndexStatus` method, supplying the *name of the index* and the *status* as a `string`. The *status* can have one of the following values: `online` or `offline`. We are, of course, going to set the status to `offline`.
 
 The response doesn't contain any data, it just contains the `Error` part.
 
 ```csharp
-var response = indicesApi.UpdateStatus("contact", "offline");
+var response = indicesApi.UpdateIndexStatus("contact", "offline");
 
 // This method doesn't return any significant data. It just reports any errors.
 if (response.Error?.Message != null)

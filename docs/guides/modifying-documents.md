@@ -32,10 +32,10 @@ correctedDocument.Fields.Add("name", "Vladimir");
 correctedDocument.Fields.Add("age", "26");
 ```
 
-Now we just need to update the index with the corrected document using the `UpdateDocument` method.
+Now we just need to update the index with the corrected document using the `CreateOrUpdateDocument` method.
 
 ```csharp
-var response = documentsApi.UpdateDocument(correctedDocument, "contact", "7");
+var response = documentsApi.CreateOrUpdateDocument(correctedDocument, "contact", "7");
 
 // This method doesn't return any significant data. It just reports any errors.
 if (response.Error?.Message != null)

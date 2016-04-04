@@ -3,6 +3,8 @@ You can search data in FlexSearch in two ways:
 1. Using one of the FlexSearch clients (C#, TypeScript or JavaScript)
 2. By submitting the HTTP request yourself (using a tool like Fiddler, for example)
 
+## Search using the C# Client
+
 For demonstration purposes, let's use the *country* index that already has data in it. Please see the [Setting up the demo index] section in order to initialize the `country` index.
 You can find the source code of this example in the [Samples] Github repository.
 
@@ -62,9 +64,48 @@ private void InterpretResponse(SearchResponse response)
 }
 ```
 
-### Search by writing the HTTP request ourselves
+## Search by writing the HTTP request ourselves
 
 Please have a look at the REST documentation for [Search APIs].
+
+## Query examples
+
+Here is a list of query examples against the `country` index. Each example represents a query submitted to FlexSearch and its results. 
+You can find further details about what the queries actually mean in the [Search APIs] section.
+
+@@render(partials/search_result.html,examples/post-indices-search-term-1.json)
+
+@@render(partials/search_result.html,examples/post-indices-search-term-2.json)
+
+@@render(partials/search_result.html,examples/post-indices-search-term-3.json)
+
+@@render(partials/search_result.html,examples/post-indices-search-term-4.json)
+
+@@render(partials/search_result.html,examples/post-indices-search-fuzzy-1.json)
+
+@@render(partials/search_result.html,examples/post-indices-search-fuzzy-3.json)
+
+@@render(partials/search_result.html,examples/post-indices-search-matchall-1.json)
+
+@@render(partials/search_result.html,examples/post-indices-search-phrase-1.json)
+
+@@render(partials/search_result.html,examples/post-indices-search-phrase-2.json)
+
+@@render(partials/search_result.html,examples/post-indices-search-phrase-3.json)
+
+@@render(partials/search_result.html,examples/post-indices-search-range-1.json)
+
+@@render(partials/search_result.html,examples/post-indices-search-range-2.json)
+
+@@render(partials/search_result.html,examples/post-indices-search-range-3.json)
+
+@@render(partials/search_result.html,examples/post-indices-search-range-4.json)
+
+@@render(partials/search_result.html,examples/post-indices-search-regex-1.json)
+
+@@render(partials/search_result.html,examples/post-indices-search-wildcard-1.json)
+
+@@render(partials/search_result.html,examples/post-indices-search-wildcard-3.json)
 
 [Search APIs]: ../../QueryTypes
 [Predefined Queries]: ../concepts/predefined-queries

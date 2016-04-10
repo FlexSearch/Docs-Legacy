@@ -16,7 +16,7 @@ in real world.
 In order to set up demo index, go to the homepage of the portal and select the
 demo index card from the installed tools section.
 
-![Demo Index](../images/setup-demo-index.png)
+![Demo Index](/img/setup-demo-index.png)
 
 Alternatively, you could use a tool like *Fiddler* to issue a `PUT` request to the
 URL 

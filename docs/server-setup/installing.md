@@ -98,13 +98,13 @@ Press any key to continue . . .
 
 Once configured successfully you can access the logs from Event Viewer.
 
-![Event Viewer](..\images\event-viewer.png)
+![Event Viewer](\img\event-viewer.png)
 
 ### Accessing Portal
 To confirm your installation, go to the FlexSearch root page at http://hostname:9800/.
 The below screen will confirm a proper install of the server.
 
-<img src="..\images\FlexSearch-Portal.png" alt="FlexSearch Portal"/>
+<img src="\img\FlexSearch-Portal.png" alt="FlexSearch Portal"/>
 _____
 
 ## Troubleshooting install issues

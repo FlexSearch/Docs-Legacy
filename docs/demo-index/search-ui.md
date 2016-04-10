@@ -55,12 +55,12 @@ service.
 The search UI also called 'Search Studio 'can be accessed from the home page of
 the portal. Go to the homepage and select the search studio card.
 
-![Search studio](../images/search-studio.png)
+![Search studio](/img/search-studio.png)
 
 Inside the Search Studio, click on the index drop-down and choose country index.
 This is the index that was created in the previous tutorial.
 
-<img src="../images/search-demo-index.png" alt="Demo Index">
+<img src="/img/search-demo-index.png" alt="Demo Index">
 
 On the left-hand side you can see all the fields that are present in the index.
 On the top right hand side you have a button to submit the search. You can enter

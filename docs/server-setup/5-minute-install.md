@@ -6,7 +6,7 @@ Because it takes 3 minutes to download the [FlexSearch package].
 
 1. Dowload the [FlexSearch package]
 2. Extract `FlexSearch.<version_number>.zip` into a folder (assume `C:\FlexSearch`)
-3. From a command line @ `C:\FlexSearch` run:
+3. From an elevated command prompt @ `C:\FlexSearch` run:
 
     ```
     > FlexSearch-Server.exe -i
